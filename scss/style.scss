@@ -827,6 +827,10 @@ body {
     @media (max-width: 430px) {
       padding: 0 8px;
     }
+    @media(max-width: 374px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   // .lotteries-block__card
   &__card {
@@ -853,8 +857,8 @@ body {
         font-size: 16px;
       }
     }
-    @media (max-width: 768.98px) {
-      padding: 0 24px;
+    @media (max-width: 537px) {
+    padding-right: 9.5px;
     }
   }
   // .lotteries-block__link-pc
@@ -931,7 +935,7 @@ body {
       font-size: 12px;
     }
     @media (max-width: 340px) {
-      font-size: 10px;
+      font-size: 11px;
     }
   }
   // .card-lotteries__value
@@ -943,6 +947,9 @@ body {
     margin-bottom: 8px;
     @media (max-width: 420px) {
       font-size: 18px;
+    }
+    @media (max-width: 330px) {
+      font-size: 16px;
     }
   }
   // .card-lotteries__timer
@@ -977,11 +984,11 @@ body {
     @media (min-width: 768.98px) {
       padding: 7px 57px;
     }
-    @media (max-width: 425px) {
+    @media (max-width: 426px) {
       padding: 6px 35px;
     }
-    @media(max-width: 320px) {
-      padding: 6px 30px;
+    @media(max-width: 374px) {
+      padding: 6px 18px;
     }
   }
 }

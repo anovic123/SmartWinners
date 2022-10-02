@@ -821,6 +821,12 @@ body._lock {
     padding: 0 8px;
   }
 }
+@media (max-width: 374px) {
+  .lotteries-block__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .lotteries-block__show-more {
   margin-top: 15px;
   display: flex;
@@ -845,9 +851,9 @@ body._lock {
     font-size: 16px;
   }
 }
-@media (max-width: 768.98px) {
+@media (max-width: 537px) {
   .lotteries-block__show-more {
-    padding: 0 24px;
+    padding-right: 9.5px;
   }
 }
 @media (max-width: 425px) {
@@ -930,7 +936,7 @@ body._lock {
 }
 @media (max-width: 340px) {
   .card-lotteries__title {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 .card-lotteries__value {
@@ -943,6 +949,11 @@ body._lock {
 @media (max-width: 420px) {
   .card-lotteries__value {
     font-size: 18px;
+  }
+}
+@media (max-width: 330px) {
+  .card-lotteries__value {
+    font-size: 16px;
   }
 }
 .card-lotteries__timer {
@@ -980,14 +991,14 @@ body._lock {
     padding: 7px 57px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .card-lotteries__button {
     padding: 6px 35px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 374px) {
   .card-lotteries__button {
-    padding: 6px 30px;
+    padding: 6px 18px;
   }
 }
 
