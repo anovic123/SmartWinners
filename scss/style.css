@@ -530,7 +530,6 @@ body._lock {
 @media (max-width: 768.98px) {
   .main-block__card {
     padding: 4px 8px 6px 5px;
-    width: 340px;
   }
 }
 .main-block__card img {
