@@ -656,7 +656,7 @@ body._lock {
   width: 380px;
   height: 155px;
 }
-@media (max-width: 425px) {
+@media (max-width: 805px) {
   .card-upcoming {
     max-width: 343px;
   }
@@ -668,14 +668,9 @@ body._lock {
   max-height: 92px;
   padding: 6.3px 36.3px 5.27px 28.31px;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 805px) {
   .card-upcoming__top {
     max-height: 89.57px;
-    gap: 35px;
-  }
-}
-@media (max-width: 426px) {
-  .card-upcoming__top {
     padding: 6.3px 9.3px 5.27px 14.31px;
     gap: 30px;
   }
@@ -719,7 +714,7 @@ body._lock {
   line-height: 85%;
   color: #13902a;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 805px) {
   .card-upcoming__value {
     font-size: 24px;
   }
