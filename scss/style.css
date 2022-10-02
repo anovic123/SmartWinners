@@ -985,6 +985,11 @@ body._lock {
     padding: 6px 35px;
   }
 }
+@media (max-width: 320px) {
+  .card-lotteries__button {
+    padding: 6px 30px;
+  }
+}
 
 /*--------------------/lotteries-block--------------------*/
 /*--------------------winners-block--------------------*/
