@@ -52,6 +52,7 @@ body._lock {
 /*--------------------/Page-----------------------*/
 /*--------------------General--------------------*/
 .yellow-button {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -81,6 +82,7 @@ body._lock {
 }
 
 .block-title {
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 133%;
@@ -184,6 +186,9 @@ body._lock {
 
 .actions-header {
   margin-right: 20px;
+}
+.social-header {
+  margin-bottom: 5px;
 }
 .social-header__list {
   display: flex;
@@ -1256,7 +1261,7 @@ body._lock {
   border-radius: 8px;
   padding: 5px 5px 10px 5px;
   text-align: center;
-  margin-bottom: 30.35px;
+  margin-bottom: 30.7px;
 }
 @media (max-width: 768.98px) {
   .latest-winners__value {
