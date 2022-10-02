@@ -527,8 +527,9 @@ body._lock {
   width: 380px;
   min-height: 90px;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 805px) {
   .main-block__card {
+    width: 343px;
     padding: 4px 8px 6px 5px;
   }
 }
