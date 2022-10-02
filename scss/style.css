@@ -183,7 +183,7 @@ body._lock {
 }
 
 .actions-header {
-  padding: 0 26px 0 0;
+  margin-right: 20px;
 }
 .social-header__list {
   display: flex;
@@ -685,6 +685,7 @@ body._lock {
 }
 @media (max-width: 350px) {
   .card-upcoming__top {
+    padding: 6.3px 5.3px 5.27px 5.3px;
     gap: 10px;
   }
 }
@@ -705,16 +706,6 @@ body._lock {
     font-size: 12px;
   }
 }
-@media (max-width: 330px) {
-  .card-upcoming__title h4 {
-    font-size: 11px;
-  }
-}
-@media (max-width: 350px) {
-  .card-upcoming__title {
-    gap: 5px;
-  }
-}
 @media (max-width: 390px) {
   .card-upcoming__title {
     margin-bottom: 12px;
@@ -733,7 +724,7 @@ body._lock {
 }
 @media (max-width: 350px) {
   .card-upcoming__value {
-    font-size: 19px;
+    font-size: 21px;
   }
 }
 .card-upcoming__bottom {
@@ -761,6 +752,7 @@ body._lock {
 @media (max-width: 350px) {
   .card-upcoming__bottom {
     gap: 25px;
+    padding: 14.43px 5.3px 12px 13.3px;
   }
 }
 .card-upcoming__play-button {
