@@ -134,7 +134,6 @@ body {
     display: flex;
     align-items: center;
     gap: 29px;
-    max-width: 1220px;
     padding: 0;
     max-height: 80px;
     @media (max-width: 768.98px) {
@@ -398,7 +397,6 @@ body {
 .body-header {
   // .body-header__container
   &__container {
-    max-width: 1220px;
     max-height: 34px;
     padding: 0;
     @media (max-width: 768.98px) {
@@ -522,7 +520,6 @@ body {
   }
   // .main-block__container
   &__container {
-    max-width: 1220px;
     padding: 0;
   }
   // .main-block__img
