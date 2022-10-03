@@ -687,7 +687,6 @@ body {
   padding-top: 3px;
   overflow: hidden;
   width: 380px;
-  height: 155px;
   @media (max-width: 805px) {
     max-width: 343px;
   }
@@ -700,17 +699,17 @@ body {
     align-items: center;
     gap: 23.39px;
     max-height: 92px;
-    padding: 6.3px 36.3px 5.27px 28.31px;
+    padding: 3.3px 36.3px 5.27px 28.31px;
     @media (max-width: 805px) {
       max-height: 89.57px;
-      padding: 6.3px 9.3px 5.27px 14.31px;
+      padding: 3.3px 9.3px 5.27px 14.31px;
       gap: 30px;
     }
     @media (max-width: 375px) {
-      padding: 4px 23.54px 8.57px 24px;
+      padding: 3.3px 23.54px 8.57px 24px;
     }
     @media (max-width: 371px) {
-      padding: 6.3px 5.3px 5.27px 8.3px;
+      padding: 3.3px 5.3px 5.27px 8.3px;
       gap: 20px;
     }
     img {
@@ -763,7 +762,7 @@ body {
     background: #0061a3;
     padding: 13.43px 8.35px 8.35px 12.25px;
     @media (max-width: 1024px) {
-      padding: 14.43px 16px 15px 16px;
+      padding: 13.43px 8.35px 8.35px 12.25px;
     }
     @media (max-width: 480px) {
       gap: 47px;
