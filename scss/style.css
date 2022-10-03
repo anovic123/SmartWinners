@@ -716,6 +716,7 @@ body._lock {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 3px 0 0 5px;
   margin-bottom: 14.5px;
 }
 .card-upcoming__title h4 {
@@ -1081,7 +1082,7 @@ body._lock {
   margin-top: 15px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 21.05px;
+  padding: 16.05px;
 }
 @media (max-width: 768.98px) {
   .biggest-winners__block {
@@ -1256,7 +1257,7 @@ body._lock {
 
 .biggest-winners-result {
   margin-top: 14px;
-  padding-right: 34px;
+  padding-right: 28px;
 }
 .biggest-winners-result__inner {
   display: flex;
@@ -1311,9 +1312,9 @@ body._lock {
 .latest-winners__value {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 5px 5px 10px 5px;
+  padding: 5px 5px 6px 5px;
   text-align: center;
-  margin-bottom: 30.7px;
+  margin-bottom: 29.7px;
 }
 @media (max-width: 768.98px) {
   .latest-winners__value {
@@ -1350,7 +1351,7 @@ body._lock {
 .latest-winners__item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin-bottom: 8.357px;
+  margin-bottom: 10.357px;
   display: flex;
   align-items: center;
   padding: 10px 5px 5px 10px;
@@ -1471,7 +1472,7 @@ body._lock {
 }
 .footer__container {
   background: linear-gradient(0deg, rgba(224, 224, 224, 0.47) 0%, rgba(225, 225, 225, 0.16) 20.75%, rgba(255, 254, 254, 0.26) 84.14%, #ffffff 126.52%);
-  padding: 132px 123.27px 50.63px 110.27px;
+  padding: 128px 123.27px 50.63px 110.27px;
 }
 @media (max-width: 1024px) {
   .footer__container {
@@ -1572,14 +1573,13 @@ body._lock {
   }
 }
 .item-footer__text {
-  font-size: 12px;
+  font-size: 11.9px;
   color: #000000;
   font-weight: 500;
   line-height: 120%;
-  margin-bottom: 5px;
 }
 .item-footer__address {
-  font-size: 13px;
+  font-size: 14.3px;
   font-weight: 500;
   line-height: 162%;
   color: #000000;
