@@ -540,7 +540,6 @@ body {
   &__cards {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     gap: 15px;
     margin-top: 29px;
@@ -1230,6 +1229,9 @@ body {
     @media (max-width: 768.98px) {
       gap: 15.92px;
     }
+    @media (max-width: 330px) {
+      gap: 9.92px;
+    }
   }
   &__total {
     font-weight: 500;
@@ -1468,7 +1470,7 @@ body {
       rgba(255, 254, 254, 0.26) 84.14%,
       #ffffff 126.52%
     );
-    padding: 128px 123.27px 50.63px 110.27px;
+    padding: 135px 123.27px 50.63px 110.27px;
     @media (max-width: 1024px) {
       padding: 82px 70px 55.63px 70px;
     }
@@ -1488,7 +1490,7 @@ body {
   &__chat {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 13px;
   }
   // .footer__chat-body
   &__chat-body {
@@ -1498,6 +1500,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 120%;
+    margin-bottom: 1px;
     color: #000000;
   }
   // .footer__chat-subtitle
@@ -1521,7 +1524,7 @@ body {
 .social-footer {
   display: flex;
   gap: 10px;
-  padding-right: 27px;
+  padding: 2px 23px 0 0;
   @media (max-width: 768.98px) {
     margin-top: 15px;
   }

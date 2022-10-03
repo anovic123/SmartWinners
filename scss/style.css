@@ -503,7 +503,6 @@ body._lock {
 .main-block__cards {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   gap: 15px;
   margin-top: 29px;
@@ -1268,6 +1267,11 @@ body._lock {
     gap: 15.92px;
   }
 }
+@media (max-width: 330px) {
+  .biggest-winners-result__inner {
+    gap: 9.92px;
+  }
+}
 .biggest-winners-result__total {
   font-weight: 500;
   line-height: 120%;
@@ -1472,7 +1476,7 @@ body._lock {
 }
 .footer__container {
   background: linear-gradient(0deg, rgba(224, 224, 224, 0.47) 0%, rgba(225, 225, 225, 0.16) 20.75%, rgba(255, 254, 254, 0.26) 84.14%, #ffffff 126.52%);
-  padding: 128px 123.27px 50.63px 110.27px;
+  padding: 135px 123.27px 50.63px 110.27px;
 }
 @media (max-width: 1024px) {
   .footer__container {
@@ -1494,12 +1498,13 @@ body._lock {
 .footer__chat {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 13px;
 }
 .footer__chat-title {
   font-size: 16px;
   font-weight: 700;
   line-height: 120%;
+  margin-bottom: 1px;
   color: #000000;
 }
 .footer__chat-subtitle {
@@ -1525,7 +1530,7 @@ body._lock {
 .social-footer {
   display: flex;
   gap: 10px;
-  padding-right: 27px;
+  padding: 2px 23px 0 0;
 }
 @media (max-width: 768.98px) {
   .social-footer {
