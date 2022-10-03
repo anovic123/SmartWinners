@@ -767,7 +767,7 @@ body._lock {
 @media (max-width: 350px) {
   .card-upcoming__bottom {
     gap: 25px;
-    padding: 13.43px 5.3px 8.35px 8.3px;
+    padding: 13.43px 5.3px 12px 8.3px;
   }
 }
 .card-upcoming__play-button {
