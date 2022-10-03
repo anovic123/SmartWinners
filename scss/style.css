@@ -1427,7 +1427,8 @@ body._lock {
 }
 .question-block__item {
   border-bottom: 1px solid #e0e0e0;
-  padding: 9px 20px;
+  padding: 13px 0 10px 20px;
+  max-width: 750px;
 }
 .question-block__item.active .question-block__body {
   display: block;
@@ -1442,7 +1443,7 @@ body._lock {
 /*--------------------/question-block--------------------*/
 /*--------------------footer--------------------*/
 .footer {
-  margin-top: 92px;
+  margin-top: 75px;
   background-image: url("../img/footer/bg.png");
   background-position: top;
   background-repeat: no-repeat;
