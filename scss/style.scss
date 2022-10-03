@@ -70,7 +70,7 @@ body {
 
 /*--------------------General--------------------*/
 .yellow-button {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
@@ -95,7 +95,7 @@ body {
   }
 }
 .block-title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 133%;
@@ -286,8 +286,8 @@ body {
     margin-left: 10px;
     transition: transform 0.3s ease 0s;
     cursor: pointer;
-    @media(max-width: 768.98px) {
-      margin-left: 5px; 
+    @media (max-width: 768.98px) {
+      margin-left: 5px;
     }
   }
   // .location-header__list
@@ -562,7 +562,7 @@ body {
     border-radius: 8px;
     width: 380px;
     min-height: 90px;
-    @media(max-width: 805px) {
+    @media (max-width: 805px) {
       width: 343px;
       padding: 4px 8px 6px 5px;
     }
@@ -606,7 +606,7 @@ body {
     font-weight: 500;
     // line-height: 150%;
     text-decoration: underline;
-    color: #0061A3;
+    color: #0061a3;
     transition: all 0.3s ease 0s;
     @media (any-hover: hover) {
       &:hover {
@@ -625,7 +625,7 @@ body {
   &__card-text {
     max-width: 297px;
     p {
-      color: #5F5F5F;
+      color: #5f5f5f;
       font-weight: 400;
       line-height: 120%;
       @media (max-width: 340px) {
@@ -715,7 +715,7 @@ body {
       gap: 20px;
     }
     img {
-      @media(max-width: 375px) {
+      @media (max-width: 375px) {
         max-width: 123px;
         max-height: 80px;
       }
@@ -723,7 +723,7 @@ body {
   }
   // .card-upcoming__top-inner
   &__top-inner {
-        margin-top: 5px;
+    margin-top: 5px;
   }
   // .card-upcoming__title
   &__title {
@@ -768,7 +768,7 @@ body {
     @media (max-width: 480px) {
       gap: 47px;
     }
-    @media(max-width: 375px) {
+    @media (max-width: 375px) {
       gap: 49.7px;
       padding: 14.43px 8.35px 12px 16px;
     }
@@ -782,7 +782,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    @media(max-width: 420px) {
+    @media (max-width: 420px) {
       width: 144px;
       height: 34px;
     }
@@ -840,7 +840,7 @@ body {
     @media (max-width: 430px) {
       padding: 0 8px;
     }
-    @media(max-width: 374px) {
+    @media (max-width: 374px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
@@ -899,11 +899,11 @@ body {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 11.3px 10px 10px 10px;
-  @media(min-width: 794px) {
+  @media (min-width: 794px) {
     width: 208px;
     height: 270px;
   }
-  @media(max-width: 794px) {
+  @media (max-width: 794px) {
     max-width: 100%;
     max-height: 100%;
   }
@@ -1011,7 +1011,7 @@ body {
     @media (max-width: 485px) {
       padding: 6px 33.5px;
     }
-    @media(max-width: 374px) {
+    @media (max-width: 374px) {
       padding: 6px 18px;
     }
   }
@@ -1157,7 +1157,7 @@ body {
     font-weight: 700;
     line-height: 150%;
     color: #000000;
-    margin-bottom: 15px;
+    margin-bottom: 9px;
     @media (max-width: 768.98px) {
       text-align: center;
       margin-bottom: 8px;
@@ -1168,7 +1168,7 @@ body {
     line-height: 150%;
     font-weight: 500;
     color: #000000;
-    margin-bottom: 31.81px;
+    margin-bottom: 33.81px;
     @media (max-width: 768.98px) {
       margin-bottom: 12px;
       text-align: center;
@@ -1199,10 +1199,12 @@ body {
     }
   }
   // .biggest-winners__button
-  &__button {display: flex;
+  &__button {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
+    padding: 5px 43px;
     @media (max-width: 768.98px) {
       width: 232px;
       height: 36px;
@@ -1214,7 +1216,8 @@ body {
   }
 }
 .biggest-winners-result {
-  margin-top: 20px;
+  margin-top: 14px;
+  padding-right: 34px;
   // .biggest-winners-result__inner
   &__inner {
     display: flex;
