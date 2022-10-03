@@ -543,7 +543,7 @@ body._lock {
   gap: 10px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6.5px;
+  margin-bottom: 10px;
 }
 @media (max-width: 375px) {
   .main-block__card-top {
@@ -607,7 +607,7 @@ body._lock {
 /*--------------------/main-block--------------------*/
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 75px;
+  margin-top: 70px;
 }
 @media (max-width: 768.98px) {
   .upcoming-block {
@@ -704,6 +704,9 @@ body._lock {
     max-height: 80px;
   }
 }
+.card-upcoming__top-inner {
+  margin-top: 5px;
+}
 .card-upcoming__title {
   display: flex;
   align-items: center;
@@ -748,12 +751,7 @@ body._lock {
   align-items: center;
   gap: 39.54px;
   background: #0061a3;
-  padding: 13.43px 8.35px 8.35px 12.25px;
-}
-@media (max-width: 1024px) {
-  .card-upcoming__bottom {
-    padding: 13.43px 8.35px 8.35px 12.25px;
-  }
+  padding: 10.43px 8.35px 8.35px 12.25px;
 }
 @media (max-width: 480px) {
   .card-upcoming__bottom {
@@ -843,7 +841,7 @@ body._lock {
   }
 }
 .lotteries-block__show-more {
-  margin-top: 15px;
+  margin-top: 20px;
   display: flex;
   justify-content: flex-end;
   transition: color 0.3s ease 0s;
@@ -916,7 +914,7 @@ body._lock {
   }
 }
 .card-lotteries__img {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 @media (max-width: 768.98px) {
   .card-lotteries__img {
@@ -1376,7 +1374,7 @@ body._lock {
 /*--------------------/winners-block--------------------*/
 /*--------------------question-block--------------------*/
 .question-block {
-  margin-top: 75px;
+  margin-top: 52px;
 }
 @media (max-width: 768.98px) {
   .question-block {

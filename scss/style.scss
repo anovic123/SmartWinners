@@ -580,7 +580,7 @@ body {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 6.5px;
+    margin-bottom: 10px;
     @media (max-width: 375px) {
       gap: 5px;
       margin-bottom: 8px;
@@ -638,7 +638,7 @@ body {
 
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 75px;
+  margin-top: 70px;
   @media (max-width: 768.98px) {
     margin-top: 50px;
   }
@@ -723,6 +723,7 @@ body {
   }
   // .card-upcoming__top-inner
   &__top-inner {
+        margin-top: 5px;
   }
   // .card-upcoming__title
   &__title {
@@ -763,10 +764,7 @@ body {
     align-items: center;
     gap: 39.54px;
     background: #0061a3;
-    padding: 13.43px 8.35px 8.35px 12.25px;
-    @media (max-width: 1024px) {
-      padding: 13.43px 8.35px 8.35px 12.25px;
-    }
+    padding: 10.43px 8.35px 8.35px 12.25px;
     @media (max-width: 480px) {
       gap: 47px;
     }
@@ -852,7 +850,7 @@ body {
   }
   // .lotteries-block__show-more
   &__show-more {
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
     transition: color 0.3s ease 0s;
@@ -915,7 +913,7 @@ body {
   }
   // .card-lotteries__img
   &__img {
-    margin-bottom: 28px;
+    margin-bottom: 21px;
     @media (max-width: 768.98px) {
       margin-bottom: 12px;
     }
@@ -1364,7 +1362,7 @@ body {
 /*--------------------question-block--------------------*/
 
 .question-block {
-  margin-top: 75px;
+  margin-top: 52px;
   @media (max-width: 768.98px) {
     margin-top: 32px;
   }
