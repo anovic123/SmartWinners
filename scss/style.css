@@ -699,16 +699,16 @@ body._lock {
   .card-upcoming__top {
     max-height: 89.57px;
     padding: 3.3px 9.3px 5.27px 14.31px;
-    gap: 35px;
+    gap: 30px;
   }
 }
 @media (max-width: 375px) {
   .card-upcoming__top {
-    padding: 4.3px 5.3px 5.27px 24px;
+    padding: 6.3px 5.3px 5.27px 24px;
     gap: 35px;
   }
 }
-@media (max-width: 371px) {
+@media (max-width: 360px) {
   .card-upcoming__top {
     padding: 3.3px 5.3px 5.27px 8.3px;
     gap: 20px;
@@ -722,6 +722,11 @@ body._lock {
 }
 .card-upcoming__top-inner {
   margin-top: 5px;
+}
+@media (max-width: 375px) {
+  .card-upcoming__top-inner {
+    margin-top: -8px;
+  }
 }
 .card-upcoming__title {
   display: flex;
@@ -745,6 +750,7 @@ body._lock {
 @media (max-width: 390px) {
   .card-upcoming__title {
     margin-bottom: 12px;
+    padding: 0;
   }
 }
 .card-upcoming__value {
@@ -778,10 +784,10 @@ body._lock {
 @media (max-width: 375px) {
   .card-upcoming__bottom {
     gap: 49.7px;
-    padding: 14.43px 8.35px 12px 16px;
+    padding: 17.43px 8.35px 12px 16px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .card-upcoming__bottom {
     gap: 25px;
     padding: 13.43px 5.3px 12px 8.3px;
@@ -935,7 +941,7 @@ body._lock {
 }
 @media (max-width: 768.98px) {
   .card-lotteries__img {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
   }
 }
 @media (max-width: 425px) {
@@ -964,6 +970,11 @@ body._lock {
   display: inline-flex;
   align-items: center;
   gap: 3px;
+}
+@media (max-width: 375px) {
+  .card-lotteries__title {
+    margin-bottom: 10px;
+  }
 }
 .card-lotteries__title h5 {
   font-family: "Roboto";
@@ -994,6 +1005,11 @@ body._lock {
 @media (max-width: 420px) {
   .card-lotteries__value {
     font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .card-lotteries__value {
+    margin-bottom: 9px;
   }
 }
 @media (max-width: 330px) {
