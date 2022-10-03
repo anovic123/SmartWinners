@@ -1241,6 +1241,12 @@ body._lock {
 @media (max-width: 768.98px) {
   .biggest-winners__descrp {
     margin-bottom: 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .biggest-winners__descrp {
+    text-align: left;
     padding: 0 7px;
   }
 }

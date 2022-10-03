@@ -1200,6 +1200,10 @@ body {
     margin-bottom: 33.81px;
     @media (max-width: 768.98px) {
       margin-bottom: 15px;
+      text-align: center;
+    }
+    @media (max-width: 375px) {
+      text-align: left;
       padding: 0 7px;
     }
   }
