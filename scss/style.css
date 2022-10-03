@@ -447,7 +447,7 @@ body._lock {
 }
 .menu-body-header__link {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 120%;
   color: #ffffff;
   text-transform: uppercase;
@@ -1346,7 +1346,7 @@ body._lock {
 .latest-winners__item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin-bottom: 11.357px;
+  margin-bottom: 8.357px;
   display: flex;
   align-items: center;
   padding: 10px 5px 5px 10px;
@@ -1381,7 +1381,7 @@ body._lock {
 /*--------------------/winners-block--------------------*/
 /*--------------------question-block--------------------*/
 .question-block {
-  margin-top: 52px;
+  margin-top: 61px;
 }
 @media (max-width: 768.98px) {
   .question-block {
