@@ -92,7 +92,7 @@ body._lock {
   text-align: center;
   color: #ffffff;
   min-height: 45px;
-  padding: 10.5px;
+  padding: 11.5px;
 }
 @media (max-width: 425px) {
   .block-title {
