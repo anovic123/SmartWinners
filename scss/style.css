@@ -554,11 +554,13 @@ body._lock {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  padding-top: 4px;
 }
 @media (max-width: 375px) {
   .main-block__card-top {
     gap: 5px;
     margin-bottom: 8px;
+    padding-top: 0;
   }
 }
 @media (max-width: 320px) {
@@ -1205,6 +1207,7 @@ body._lock {
 @media (max-width: 768.98px) {
   .biggest-winners__item {
     padding: 0 8px;
+    margin-top: 6px;
   }
 }
 @media (max-width: 768.98px) {
@@ -1237,8 +1240,8 @@ body._lock {
 }
 @media (max-width: 768.98px) {
   .biggest-winners__descrp {
-    margin-bottom: 12px;
-    text-align: center;
+    margin-bottom: 15px;
+    padding: 0 7px;
   }
 }
 .biggest-winners__show-more {
