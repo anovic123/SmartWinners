@@ -83,16 +83,18 @@ body._lock {
 }
 
 .block-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
-  line-height: 133%;
   background: #f30000;
   border-radius: 8px;
   text-align: center;
   color: #ffffff;
-  min-height: 45px;
-  padding: 11.5px;
+  min-height: 43px;
+  padding: 15px;
 }
 @media (max-width: 425px) {
   .block-title {
@@ -168,6 +170,11 @@ body._lock {
   font-weight: 500;
   color: #000000;
 }
+@media (min-width: 768.98px) {
+  .player-header__status {
+    margin-bottom: 3px;
+  }
+}
 @media (max-width: 330px) {
   .player-header__status {
     font-size: 13px;
@@ -179,6 +186,7 @@ body._lock {
 .player-header__status-login {
   font-weight: 500;
   color: #0061a3;
+  padding-left: 1px;
   transition: all 0.3s ease 0s;
 }
 @media (any-hover: hover) {
@@ -187,6 +195,7 @@ body._lock {
   }
 }
 .player-header__balance {
+  margin-left: 1px;
   font-weight: 500;
   color: #000000;
 }
@@ -439,6 +448,9 @@ body._lock {
 .menu-body-header__item {
   position: relative;
 }
+.menu-body-header__item:last-child {
+  padding-right: 4px;
+}
 .menu-body-header__item::after {
   content: "";
   position: absolute;
@@ -457,12 +469,12 @@ body._lock {
 }
 .menu-body-header__link {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 120%;
   color: #ffffff;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
-  padding-right: 25px;
+  padding-right: 27px;
 }
 @media (max-width: 900px) {
   .menu-body-header__link {
@@ -532,7 +544,7 @@ body._lock {
 .main-block__card {
   display: flex;
   gap: 6px;
-  padding: 5px 13px 5px 4px;
+  padding: 5px 13px 3px 4px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   width: 380px;
@@ -553,7 +565,7 @@ body._lock {
   gap: 10px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   padding-top: 4px;
 }
 @media (max-width: 375px) {
@@ -619,7 +631,7 @@ body._lock {
 /*--------------------/main-block--------------------*/
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 73px;
+  margin-top: 74px;
 }
 @media (max-width: 768.98px) {
   .upcoming-block {
@@ -866,7 +878,7 @@ body._lock {
   }
 }
 .lotteries-block__show-more {
-  margin-top: 20px;
+  margin-top: 19px;
   display: flex;
   justify-content: flex-end;
   transition: color 0.3s ease 0s;
@@ -918,7 +930,7 @@ body._lock {
   background: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 11.3px 10px 10px 10px;
+  padding: 6px 10px 10px 10px;
 }
 @media (min-width: 794px) {
   .card-lotteries {
@@ -939,7 +951,7 @@ body._lock {
   }
 }
 .card-lotteries__img {
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 @media (max-width: 768.98px) {
   .card-lotteries__img {
@@ -1025,7 +1037,7 @@ body._lock {
   font-weight: 600;
   color: #0061a3;
   position: relative;
-  padding-left: 21.2px;
+  padding-left: 20.2px;
   margin-bottom: 12px;
 }
 @media (max-width: 425px) {
@@ -1074,7 +1086,7 @@ body._lock {
 /*--------------------/lotteries-block--------------------*/
 /*--------------------winners-block--------------------*/
 .winners-block {
-  margin-top: 75px;
+  margin-top: 76px;
 }
 @media (max-width: 1024px) {
   .winners-block {
@@ -1116,6 +1128,7 @@ body._lock {
 .biggest-winners__block {
   margin-top: 15px;
   border: 1px solid #e0e0e0;
+  border-bottom: none;
   border-radius: 8px;
   padding: 16.05px;
 }
@@ -1177,7 +1190,7 @@ body._lock {
 }
 .biggest-winners__inner {
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 @media (max-width: 1090px) {
   .biggest-winners__inner {
@@ -1251,7 +1264,7 @@ body._lock {
   }
 }
 .biggest-winners__show-more {
-  margin-bottom: 31.73px;
+  margin-bottom: 33.73px;
   text-align: center;
 }
 .biggest-winners__show-more a {
@@ -1278,6 +1291,8 @@ body._lock {
   }
 }
 .biggest-winners__button {
+  font-size: 14px;
+  line-height: 130%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1298,8 +1313,8 @@ body._lock {
 }
 
 .biggest-winners-result {
-  margin-top: 14px;
-  padding-right: 28px;
+  margin-top: 16px;
+  padding-right: 22px;
 }
 @media (max-width: 425px) {
   .biggest-winners-result {
@@ -1366,7 +1381,7 @@ body._lock {
   border-radius: 8px;
   padding: 5px 5px 6px 5px;
   text-align: center;
-  margin-bottom: 20.7px;
+  margin-bottom: 30px;
 }
 @media (max-width: 768.98px) {
   .latest-winners__value {
@@ -1403,10 +1418,10 @@ body._lock {
 .latest-winners__item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin-bottom: 10.357px;
+  margin-bottom: 21px;
   display: flex;
   align-items: center;
-  padding: 10px 5px 5px 10px;
+  padding: 6px 5px 5px 14px;
   gap: 15px;
 }
 @media (max-width: 768.98px) {
@@ -1415,24 +1430,27 @@ body._lock {
     margin-bottom: 8px;
   }
 }
+.latest-winners__item-body {
+  padding-top: 3px;
+}
 .latest-winners__item-date {
   font-weight: 500;
-  line-height: 150%;
   text-align: center;
   color: #000000;
 }
 .latest-winners__item-winner {
   font-weight: 500;
-  line-height: 150%;
   display: flex;
   align-items: center;
   gap: 5px;
   color: #000000;
 }
 .latest-winners__item-winner-id {
+  font-size: 14px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 21px;
   text-align: center;
+  margin-top: 1px;
 }
 
 .latest-winners__item--hide {
@@ -1444,10 +1462,26 @@ body._lock {
   }
 }
 
+@media (min-width: 1091px) {
+  .latest-winners__item--opacity {
+    position: relative;
+  }
+  .latest-winners__item--opacity::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: -4px;
+    width: 104%;
+    height: 60px;
+    z-index: 5;
+    background: #fff;
+  }
+}
+
 /*--------------------/winners-block--------------------*/
 /*--------------------question-block--------------------*/
 .question-block {
-  margin-top: 61px;
+  margin-top: 42px;
 }
 @media (max-width: 768.98px) {
   .question-block {
@@ -1466,6 +1500,7 @@ body._lock {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 30px;
+  padding-left: 6px;
 }
 .question-block__inner {
   max-width: 776px;

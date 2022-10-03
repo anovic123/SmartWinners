@@ -95,16 +95,18 @@ body {
   }
 }
 .block-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
-  line-height: 133%;
   background: #f30000;
   border-radius: 8px;
   text-align: center;
   color: #ffffff;
-  min-height: 45px;
-  padding: 11.5px;
+  min-height: 43px;
+  padding: 15px;
   @media (max-width: 425px) {
     padding: 13px 0;
     font-size: 16px;
@@ -180,7 +182,10 @@ body {
   color: #000000;
   // .player-header__status
   &__status {
-    @media(max-width: 330px) {
+    @media (min-width: 768.98px) {
+      margin-bottom: 3px;
+    }
+    @media (max-width: 330px) {
       font-size: 13px;
     }
     font-weight: 500;
@@ -193,6 +198,7 @@ body {
   &__status-login {
     font-weight: 500;
     color: #0061a3;
+    padding-left: 1px;
     transition: all 0.3s ease 0s;
     @media (any-hover: hover) {
       &:hover {
@@ -202,7 +208,8 @@ body {
   }
   // .player-header__balance
   &__balance {
-    @media(max-width: 330px) {
+    margin-left: 1px;
+    @media (max-width: 330px) {
       font-size: 13px;
     }
     font-weight: 500;
@@ -476,6 +483,9 @@ body {
   // .menu-body-header__item
   &__item {
     position: relative;
+    &:last-child {
+      padding-right: 4px;
+    }
     &::after {
       content: "";
       position: absolute;
@@ -494,12 +504,12 @@ body {
   // .menu-body-header__link
   &__link {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 120%;
     color: #ffffff;
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
-    padding-right: 25px;
+    padding-right: 27px;
     @media (max-width: 900px) {
       padding-right: 16px;
     }
@@ -517,7 +527,6 @@ body {
     text-decoration: underline;
   }
 }
-
 /*-------------------/Header--------------------*/
 
 /*--------------------main-block--------------------*/
@@ -562,7 +571,7 @@ body {
   &__card {
     display: flex;
     gap: 6px;
-    padding: 5px 13px 5px 4px;
+    padding: 5px 13px 3px 4px;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     width: 380px;
@@ -585,7 +594,7 @@ body {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     padding-top: 4px;
     @media (max-width: 375px) {
       gap: 5px;
@@ -645,7 +654,7 @@ body {
 
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 73px;
+  margin-top: 74px;
   @media (max-width: 768.98px) {
     margin-top: 50px;
   }
@@ -829,7 +838,6 @@ body {
 /*--------------------/upcoming-block--------------------*/
 
 /*--------------------lotteries-block--------------------*/
-
 .lotteries-block {
   margin-top: 75px;
   @media (max-width: 768.98px) {
@@ -866,7 +874,7 @@ body {
   }
   // .lotteries-block__show-more
   &__show-more {
-    margin-top: 20px;
+    margin-top: 19px;
     display: flex;
     justify-content: flex-end;
     transition: color 0.3s ease 0s;
@@ -914,7 +922,7 @@ body {
   background: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 11.3px 10px 10px 10px;
+  padding: 6px 10px 10px 10px;
   @media (min-width: 794px) {
     width: 208px;
     height: 270px;
@@ -929,7 +937,7 @@ body {
   }
   // .card-lotteries__img
   &__img {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     @media (max-width: 768.98px) {
       margin-bottom: 4px;
     }
@@ -1046,9 +1054,8 @@ body {
 /*--------------------/lotteries-block--------------------*/
 
 /*--------------------winners-block--------------------*/
-
 .winners-block {
-  margin-top: 75px;
+  margin-top: 76px;
   @media (max-width: 1024px) {
     margin-top: 50px;
   }
@@ -1089,6 +1096,7 @@ body {
   &__block {
     margin-top: 15px;
     border: 1px solid #e0e0e0;
+    border-bottom: none;
     border-radius: 8px;
     padding: 16.05px;
     @media (max-width: 768.98px) {
@@ -1142,7 +1150,7 @@ body {
   // .biggest-winners__inner
   &__inner {
     display: flex;
-    gap: 15px;
+    gap: 18px;
     @media (max-width: 1090px) {
       justify-content: space-evenly;
     }
@@ -1209,7 +1217,7 @@ body {
   }
   // .biggest-winners__show-more
   &__show-more {
-    margin-bottom: 31.73px;
+    margin-bottom: 33.73px;
     text-align: center;
     a {
       font-weight: 500;
@@ -1233,6 +1241,8 @@ body {
   }
   // .biggest-winners__button
   &__button {
+    font-size: 14px;
+    line-height: 130%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1249,8 +1259,8 @@ body {
   }
 }
 .biggest-winners-result {
-  margin-top: 14px;
-  padding-right: 28px;
+  margin-top: 16px;
+  padding-right: 22px;
   @media (max-width: 425px) {
     padding-right: 13px;
   }
@@ -1320,7 +1330,7 @@ body {
     border-radius: 8px;
     padding: 5px 5px 6px 5px;
     text-align: center;
-    margin-bottom: 20.7px;
+    margin-bottom: 30px;
     @media (max-width: 768.98px) {
       margin-bottom: 16px;
     }
@@ -1362,10 +1372,10 @@ body {
   &__item {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    margin-bottom: 10.357px;
+    margin-bottom: 21px;
     display: flex;
     align-items: center;
-    padding: 10px 5px 5px 10px;
+    padding: 6px 5px 5px 14px;
     gap: 15px;
     @media (max-width: 768.98px) {
       padding: 10px 15px 5px 15px;
@@ -1374,18 +1384,17 @@ body {
   }
   // .latest-winners__item-body
   &__item-body {
+    padding-top: 3px;
   }
   // .latest-winners__item-date
   &__item-date {
     font-weight: 500;
-    line-height: 150%;
     text-align: center;
     color: #000000;
   }
   // .latest-winners__item-winner
   &__item-winner {
     font-weight: 500;
-    line-height: 150%;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -1393,23 +1402,39 @@ body {
   }
   // .latest-winners__item-winner-id
   &__item-winner-id {
+    font-size: 14px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 21px;
     text-align: center;
+    margin-top: 1px;
   }
 }
 .latest-winners__item--hide {
   display: none;
-  @media(max-width: 425px) {
+  @media (max-width: 425px) {
     display: flex;
+  }
+}
+.latest-winners__item--opacity {
+  @media (min-width: 1091px) {
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      bottom: -50px;
+      left: -4px;
+      width: 104%;
+      height: 60px;
+      z-index: 5;
+      background: #fff;
+    }
   }
 }
 /*--------------------/winners-block--------------------*/
 
 /*--------------------question-block--------------------*/
-
 .question-block {
-  margin-top: 61px;
+  margin-top: 42px;
   @media (max-width: 768.98px) {
     margin-top: 32px;
   }
@@ -1427,6 +1452,7 @@ body {
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 30px;
+    padding-left: 6px;
   }
   // .question-block__inner
   &__inner {
@@ -1478,7 +1504,6 @@ body {
     display: none;
   }
 }
-
 /*--------------------/question-block--------------------*/
 
 /*--------------------footer--------------------*/
@@ -1648,9 +1673,9 @@ body {
     align-items: center;
     gap: 3px;
   }
-  // .item-footer__security 
+  // .item-footer__security
   &__security {
-    @media(min-width: 768.98px) {
+    @media (min-width: 768.98px) {
       margin-top: 36px;
     }
   }
@@ -1698,5 +1723,4 @@ body {
     font-weight: 700;
   }
 }
-
 /*--------------------/footer--------------------*/
