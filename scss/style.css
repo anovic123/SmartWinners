@@ -168,6 +168,11 @@ body._lock {
   font-weight: 500;
   color: #000000;
 }
+@media (max-width: 330px) {
+  .player-header__status {
+    font-size: 13px;
+  }
+}
 .player-header__status span {
   font-weight: 700;
 }
@@ -184,6 +189,11 @@ body._lock {
 .player-header__balance {
   font-weight: 500;
   color: #000000;
+}
+@media (max-width: 330px) {
+  .player-header__balance {
+    font-size: 13px;
+  }
 }
 .player-header__balance span {
   font-weight: 700;

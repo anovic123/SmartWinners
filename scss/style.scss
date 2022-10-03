@@ -180,6 +180,9 @@ body {
   color: #000000;
   // .player-header__status
   &__status {
+    @media(max-width: 330px) {
+      font-size: 13px;
+    }
     font-weight: 500;
     color: #000000;
     span {
@@ -199,6 +202,9 @@ body {
   }
   // .player-header__balance
   &__balance {
+    @media(max-width: 330px) {
+      font-size: 13px;
+    }
     font-weight: 500;
     color: #000000;
     span {
