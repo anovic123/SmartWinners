@@ -1100,6 +1100,11 @@ body._lock {
     margin-bottom: 14px;
   }
 }
+@media (min-width: 1024px) {
+  .biggest-winners__congratulations {
+    margin-right: 62px;
+  }
+}
 .biggest-winners__congratulations-title {
   font-size: 30px;
   line-height: 129%;
@@ -1181,9 +1186,8 @@ body._lock {
 .biggest-winners__initials {
   font-size: 16px;
   font-weight: 700;
-  line-height: 150%;
   color: #000000;
-  margin-bottom: 9px;
+  margin-bottom: 18px;
 }
 @media (max-width: 768.98px) {
   .biggest-winners__initials {
@@ -1204,7 +1208,7 @@ body._lock {
   }
 }
 .biggest-winners__show-more {
-  margin-bottom: 34.73px;
+  margin-bottom: 31.73px;
   text-align: center;
 }
 .biggest-winners__show-more a {
@@ -1596,8 +1600,10 @@ body._lock {
   align-items: center;
   gap: 3px;
 }
-.item-footer__security {
-  margin-top: 36px;
+@media (min-width: 768.98px) {
+  .item-footer__security {
+    margin-top: 36px;
+  }
 }
 
 @media (max-width: 768.98px) {
