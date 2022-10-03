@@ -531,8 +531,8 @@ body._lock {
 }
 .main-block__card {
   display: flex;
-  gap: 5px;
-  padding: 5.5px 15px 10px 5px;
+  gap: 6px;
+  padding: 5px 13px 5px 4px;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   width: 380px;
@@ -619,7 +619,7 @@ body._lock {
 /*--------------------/main-block--------------------*/
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 70px;
+  margin-top: 73px;
 }
 @media (max-width: 768.98px) {
   .upcoming-block {

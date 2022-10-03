@@ -561,8 +561,8 @@ body {
   // .main-block__card
   &__card {
     display: flex;
-    gap: 5px;
-    padding: 5.5px 15px 10px 5px;
+    gap: 6px;
+    padding: 5px 13px 5px 4px;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     width: 380px;
@@ -645,7 +645,7 @@ body {
 
 /*--------------------upcoming-block--------------------*/
 .upcoming-block {
-  margin-top: 70px;
+  margin-top: 73px;
   @media (max-width: 768.98px) {
     margin-top: 50px;
   }
@@ -929,7 +929,7 @@ body {
   }
   // .card-lotteries__img
   &__img {
-    margin-bottom: 21px;
+    margin-bottom: 16px;
     @media (max-width: 768.98px) {
       margin-bottom: 4px;
     }
@@ -1005,7 +1005,7 @@ body {
     font-weight: 600;
     color: #0061a3;
     position: relative;
-    padding-left: 21.2px;
+    padding-left: 20.2px;
     margin-bottom: 12px;
     @media (max-width: 425px) {
       font-size: 14px;
