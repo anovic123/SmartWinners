@@ -1105,7 +1105,7 @@ body._lock {
 }
 @media (max-width: 1024px) {
   .biggest-winners__congratulations {
-    margin-bottom: 14px;
+    margin-bottom: 2px;
   }
 }
 @media (min-width: 1024px) {
@@ -1266,6 +1266,11 @@ body._lock {
   margin-top: 14px;
   padding-right: 28px;
 }
+@media (max-width: 425px) {
+  .biggest-winners-result {
+    padding-right: 13px;
+  }
+}
 .biggest-winners-result__inner {
   display: flex;
   gap: 10px;
@@ -1393,6 +1398,15 @@ body._lock {
   font-weight: 400;
   line-height: 150%;
   text-align: center;
+}
+
+.latest-winners__item--hide {
+  display: none;
+}
+@media (max-width: 425px) {
+  .latest-winners__item--hide {
+    display: flex;
+  }
 }
 
 /*--------------------/winners-block--------------------*/
