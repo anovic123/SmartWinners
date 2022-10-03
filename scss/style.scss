@@ -18,6 +18,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -579,9 +580,10 @@ body {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 6.5px;
     @media (max-width: 375px) {
       gap: 5px;
+      margin-bottom: 8px;
     }
     @media (max-width: 320px) {
       margin-bottom: 0;
@@ -604,7 +606,7 @@ body {
     font-weight: 500;
     // line-height: 150%;
     text-decoration: underline;
-    color: #0061a3;
+    color: #0061A3;
     transition: all 0.3s ease 0s;
     @media (any-hover: hover) {
       &:hover {
@@ -623,6 +625,9 @@ body {
   &__card-text {
     max-width: 297px;
     p {
+      color: #5F5F5F;
+      font-weight: 400;
+      line-height: 120%;
       @media (max-width: 340px) {
         font-size: 13px;
       }

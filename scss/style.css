@@ -17,6 +17,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -542,11 +543,12 @@ body._lock {
   gap: 10px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 6.5px;
 }
 @media (max-width: 375px) {
   .main-block__card-top {
     gap: 5px;
+    margin-bottom: 8px;
   }
 }
 @media (max-width: 320px) {
@@ -569,7 +571,7 @@ body._lock {
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline;
-  color: #0061a3;
+  color: #0061A3;
   transition: all 0.3s ease 0s;
 }
 @media (any-hover: hover) {
@@ -590,6 +592,11 @@ body._lock {
 }
 .main-block__card-text {
   max-width: 297px;
+}
+.main-block__card-text p {
+  color: #5F5F5F;
+  font-weight: 400;
+  line-height: 120%;
 }
 @media (max-width: 340px) {
   .main-block__card-text p {
