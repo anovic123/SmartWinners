@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,600,700,900");
 
 *,
 *::after,
@@ -70,7 +70,7 @@ body {
 /*--------------------General--------------------*/
 .yellow-button {
   font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   text-align: center;
@@ -180,7 +180,7 @@ body {
   color: #000000;
   // .player-header__status
   &__status {
-    font-weight: 400;
+    font-weight: 500;
     color: #000000;
     span {
       font-weight: 700;
@@ -199,7 +199,7 @@ body {
   }
   // .player-header__balance
   &__balance {
-    font-weight: 400;
+    font-weight: 500;
     color: #000000;
     span {
       font-weight: 700;
@@ -261,7 +261,7 @@ body {
     display: inline-flex;
     color: #000000;
     span {
-      font-weight: 400;
+      font-weight: 500;
       padding-left: 13px;
       line-height: 150%;
       text-align: center;
@@ -729,7 +729,8 @@ body {
     gap: 10px;
     margin-bottom: 14.5px;
     h4 {
-      font-weight: 500;
+      font-weight: 700;
+      line-height: 100%;
       text-transform: uppercase;
       color: #000000;
       padding-top: 3px;
@@ -933,21 +934,24 @@ body {
   }
   // .card-lotteries__title
   &__title {
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #000000;
     margin-bottom: 8px;
     display: inline-flex;
     align-items: center;
     gap: 3px;
-    @media (max-width: 420px) {
-      font-size: 12px;
-    }
-    @media (max-width: 340px) {
-      font-size: 11px;
+    h5 {
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #000000;
+      padding-top: 3px;
+      @media (max-width: 420px) {
+        font-size: 12px;
+      }
+      @media (max-width: 340px) {
+        font-size: 11px;
+      }
     }
   }
   // .card-lotteries__value
@@ -968,7 +972,7 @@ body {
   &__timer {
     font-size: 16px;
     line-height: 112%;
-    font-weight: 500;
+    font-weight: 600;
     color: #0061a3;
     position: relative;
     padding-left: 21.2px;
@@ -996,8 +1000,8 @@ body {
     @media (min-width: 768.98px) {
       padding: 7px 57px;
     }
-    @media (max-width: 426px) {
-      padding: 6px 35px;
+    @media (max-width: 450px) {
+      padding: 6px 33.5px;
     }
     @media(max-width: 374px) {
       padding: 6px 18px;
@@ -1073,9 +1077,9 @@ body {
   }
   // .biggest-winners__congratulations-title
   &__congratulations-title {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 129%;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     color: #000000;
     span {
@@ -1154,7 +1158,7 @@ body {
   // .biggest-winners__descrp
   &__descrp {
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 500;
     color: #000000;
     margin-bottom: 31.81px;
     @media (max-width: 768.98px) {
@@ -1274,6 +1278,7 @@ body {
   // .latest-winners__value-title
   &__value-title {
     font-size: 18px;
+    font-weight: 500;
     line-height: 120%;
     color: #000000;
     margin-bottom: 5px;
@@ -1290,6 +1295,7 @@ body {
   &__value-winning-tickets {
     font-size: 18px;
     color: #000000;
+    font-weight: 500;
     line-height: 120%;
     span {
       font-weight: 500;
@@ -1321,7 +1327,7 @@ body {
   }
   // .latest-winners__item-date
   &__item-date {
-    font-weight: 400;
+    font-weight: 500;
     line-height: 150%;
     text-align: center;
     color: #000000;
